@@ -12,3 +12,5 @@ cd /active/scripts/
 sh RadiusPull.sh
 
 a5=ps -ef | grep java | wl -l
+
+/active/softwares/glassfish4/glassfish/bin/asadmin start-domain domain1
